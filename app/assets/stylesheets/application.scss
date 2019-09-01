@@ -1,7 +1,23 @@
+/*
+*= require simple_calendar
+*= require trix
+*/
+
 // Graphical variables
-@import "config/fonts";
-@import "config/colors";
-@import "config/bootstrap_variables";
+// @import "config/fonts";
+// @import "config/colors";
+// @import "config/bootstrap_variables";
+
+// Tailwind libraries
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "components/buttons"; // Add _buttons in components
+@import "components/forms"; // Add _forms in components
+@import "components/tabs";
 
 // External libraries
 @import "bootstrap/scss/bootstrap";
